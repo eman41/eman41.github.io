@@ -9,18 +9,29 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
+        <!-- Compass -->
+        <!--[if IE]>
+          <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <![endif]-->
 
+        <!-- Bootstrap/Custom -->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        
     </head>
     <body>
-
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+            <div class="navbar">
+              <div class="navbar-inner">
+                <a href="#" class="brand esp">{{ site.name }}</a>
+                <ul class="nav pull-right">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
             </div>
 
                 {{ content }}
@@ -31,6 +42,9 @@
                   <li><a href="http://github.com/eman41/">github.com/eman41</a></li>
                   <li><a href="http://twitter.com/emanatee/">twitter.com/emanatee</a></li>
                 </ul>
+                <p class="muted">
+                This project is hosted on <a href="https://github.com/eman41/eman41.github.io">Github</a>!
+                </p>
               </div>
             </div>
           </div>
