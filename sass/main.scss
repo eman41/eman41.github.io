@@ -11,7 +11,6 @@ body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
 }
 
 a,a:visited { color: #3366CC; }
@@ -41,86 +40,28 @@ ul.posts span {
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-  
-  .meta {
-    color: #aaa;
-  }
-  .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-    .contact {
-      float: left;
-      margin-right: 3em;
-      border-top: 1px solid #eaeaea;
-      ul {
-        list-style: none;
-      }
-      a {
-        color: gray;    
-      }
-      a:hover {
-        color: blue;
-        text-decoration: none;
-      }
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+  .contact {
+    float: left;
+    margin-right: 3em;
+    border-top: 1px solid #eaeaea;
+    ul {
+      list-style: none;
     }
-    .muted a{ 
-      color: black;
+    a {
+      color: gray;    
+    }
+    a:hover {
+      color: blue;
+      text-decoration: none;
     }
   }
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post {
-  a:hover {
-    color: #d14;
+  .muted a{ 
+    color: black;
   }
-  a, a:visited, a:hover {
-    text-decoration: none;
-  }
-  pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-    code {
-      border: none;
-    }
-  }
-  ul, ol {
-    margin-left: 1.35em;  
-  }
-  code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .2em;
-  }
-  /* terminal */
-  pre.terminal {
-    border: 1px solid #000;
-    background-color: #333;
-    color: #FFF;
-    code {
-      background-color: #333;
-    }
-  } 
 }

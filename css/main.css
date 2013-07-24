@@ -14,15 +14,14 @@ body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 a, a:visited {
   color: #3366CC;
 }
 
-/* line 19, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 table {
   font-size: inherit;
   font: 100%;
@@ -33,118 +32,52 @@ table {
 /* Home
 /*
 /*****************************************************************************/
-/* line 29, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 ul.posts li {
   line-height: 1.75em;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 ul.posts span {
   color: #aaa;
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-/* line 50, ../sass/main.scss */
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-/* line 57, ../sass/main.scss */
-.site .meta {
-  color: #aaa;
-}
-/* line 60, ../sass/main.scss */
-.site .footer {
+/* line 43, ../sass/main.scss */
+.footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
-/* line 66, ../sass/main.scss */
-.site .footer .contact {
+/* line 49, ../sass/main.scss */
+.footer .contact {
   float: left;
   margin-right: 3em;
   border-top: 1px solid #eaeaea;
 }
-/* line 70, ../sass/main.scss */
-.site .footer .contact ul {
+/* line 53, ../sass/main.scss */
+.footer .contact ul {
   list-style: none;
 }
-/* line 73, ../sass/main.scss */
-.site .footer .contact a {
+/* line 56, ../sass/main.scss */
+.footer .contact a {
   color: gray;
 }
-/* line 76, ../sass/main.scss */
-.site .footer .contact a:hover {
+/* line 59, ../sass/main.scss */
+.footer .contact a:hover {
   color: blue;
   text-decoration: none;
 }
-/* line 81, ../sass/main.scss */
-.site .footer .muted a {
+/* line 64, ../sass/main.scss */
+.footer .muted a {
   color: black;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-/* standard */
-/* line 94, ../sass/main.scss */
-.post {
-  /* terminal */
-}
-/* line 95, ../sass/main.scss */
-.post a:hover {
-  color: #d14;
-}
-/* line 98, ../sass/main.scss */
-.post a, .post a:visited, .post a:hover {
-  text-decoration: none;
-}
-/* line 101, ../sass/main.scss */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-/* line 105, ../sass/main.scss */
-.post pre code {
-  border: none;
-}
-/* line 109, ../sass/main.scss */
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-/* line 112, ../sass/main.scss */
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-/* line 118, ../sass/main.scss */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-/* line 122, ../sass/main.scss */
-.post pre.terminal code {
-  background-color: #333;
 }
