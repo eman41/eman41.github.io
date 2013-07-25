@@ -19,8 +19,6 @@ Jekyll takes posts written in plain text (I'm sticking with [Markdown][md]) and 
 
 Soon I'll want to have my resume, some public Ruby projects, new work projects, and other assorted goodies. Thanks for reading...if you still are!
 
--Eric
-
 [schell]: http://www.schellgames.com
 [jekyll]: http://jekyllrb.com
 [bootstrap]: http://twitter.github.io/bootstrap/index.html
