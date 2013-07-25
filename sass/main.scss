@@ -1,10 +1,4 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
+/* main.scss - Custom CSS stuff */
 html, body { height: 100%; }
 
 body {
@@ -20,24 +14,17 @@ table {
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Consolas, Monaco, "Courier New", monospace;
-  font-size: 80%;
+  li {
+    line-height: 1.75em;
+  }
+  span {
+    color: #aaa;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 }
 
 .footer {

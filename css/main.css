@@ -1,56 +1,44 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-/* Global Reset */
-/* line 8, ../sass/main.scss */
+/* main.scss - Custom CSS stuff */
+/* line 2, ../sass/main.scss */
 html, body {
   height: 100%;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 a, a:visited {
   color: #3366CC;
 }
 
-/* line 18, ../sass/main.scss */
+/* line 12, ../sass/main.scss */
 table {
   font-size: inherit;
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-/* line 28, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
-
-/* line 33, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 ul.posts li {
   line-height: 1.75em;
 }
-
-/* line 37, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 ul.posts span {
   color: #aaa;
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 .footer {
   font-size: 80%;
   color: #666;
@@ -58,26 +46,26 @@ ul.posts span {
   margin-top: 2em;
   overflow: hidden;
 }
-/* line 49, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 .footer .contact {
   float: left;
   margin-right: 3em;
   border-top: 1px solid #eaeaea;
 }
-/* line 53, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .footer .contact ul {
   list-style: none;
 }
-/* line 56, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .footer .contact a {
   color: gray;
 }
-/* line 59, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .footer .contact a:hover {
   color: blue;
   text-decoration: none;
 }
-/* line 64, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .footer .muted a {
   color: black;
 }
