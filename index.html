@@ -8,16 +8,9 @@ title: E.S.P
   	<p><small>The musings of a Pittsburgh-born software developer</small></p>
   </h1>
 </div>
-<div class="row">
-	<div class="span6">
-		<h5>Latest Blog:</h5>
-	</div>
-	<div class="span6">
-		<h5>Featured Gist:</h5>
-	</div>
-</div>
 <ul class="thumbnails">
 	<li class="span6">
+		<h5>Latest Blog:</h5>
 		<div class="thumbnail">
 			<h3 class="page-header">{{ site.posts.first.title }} 
 				<small class="meta">{{ site.posts.first.date | date_to_string }}</small>
@@ -29,6 +22,7 @@ title: E.S.P
 		</div>
 	</li>
 	<li class="span6">
+		<h5>Featured Gist:</h5>
 		{% gist 5471678 %}
 	</li>
 </ul>
