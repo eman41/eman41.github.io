@@ -8,4 +8,6 @@ layout: default
 {{ content }}
 </div>
 <p class="text-error"><strong>-Eric</strong></p>
-{% include tags.html param=page.tags %}
+{% for tag in page.tags %}
+	<span class="label">{{ tag }}</span>
+{% endfor %}
