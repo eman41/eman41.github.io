@@ -2,7 +2,7 @@
 layout: post
 title:  "Up and Running"
 date:   2013-07-24 19:35:39
-categories: blog
+tags:   blog jekyll
 ---
 
 It seemed weird not having a web-presence these past couple years. The last I had anything out there publicly was when I was regularly blogging about WoW, raid leading, and other MMO related topics. I'll be starting a [new job][schell] soon (a post on that eventually) in a much more tech focused arena, so it seems appropriate to get something started now.

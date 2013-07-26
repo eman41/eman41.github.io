@@ -23,22 +23,27 @@ table {
 }
 
 /* line 17, ../sass/main.scss */
+p.meta {
+  font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+/* line 21, ../sass/main.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
-/* line 20, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 ul.posts li {
   line-height: 1.75em;
 }
-/* line 23, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 ul.posts span {
   color: #aaa;
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 .footer {
   font-size: 80%;
   color: #666;
@@ -46,26 +51,26 @@ ul.posts span {
   margin-top: 2em;
   overflow: hidden;
 }
-/* line 36, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .footer .contact {
   float: left;
   margin-right: 3em;
   border-top: 1px solid #eaeaea;
 }
-/* line 40, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .footer .contact ul {
   list-style: none;
 }
-/* line 43, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .footer .contact a {
   color: gray;
 }
-/* line 46, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .footer .contact a:hover {
   color: blue;
   text-decoration: none;
 }
-/* line 51, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .footer .muted a {
   color: black;
 }

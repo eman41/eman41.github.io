@@ -22,31 +22,10 @@
     <body>
       <script src="http://code.jquery.com/jquery.js"></script>
       <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-      <div class="navbar">
-        <div class="navbar-inner">
-          <div class="container">
-            <a href="#" class="brand esp"><img src="/img/av.png"/></a>
-            <ul class="nav pull-right">
-              <li><a href="/">Home</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/about">About</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      {% include navbar.html %}
       <div class="container">
         {{ content }}
       </div>
-      <div class="footer">
-        <div class="contact">
-          <ul>
-            <li><a href="http://github.com/eman41/">github.com/eman41</a></li>
-            <li><a href="http://twitter.com/emanatee/">twitter.com/emanatee</a></li>
-          </ul>
-          <p class="muted">
-            This project is hosted on <a href="https://github.com/eman41/eman41.github.io">Github</a>!
-          </p>
-        </div>
-      </div>
+      {% include footer.html %}
     </body>
 </html>
