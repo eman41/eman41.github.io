@@ -4,12 +4,12 @@ POSTS = "_posts/"
 
 task :default => [:test]
 
-desc "Make a new draft post with the post layout"
+desc "Make an empty, published post (layout: post)"
 task :post, :title do |t, args|
 	new_post args.title, true
 end
 
-desc desc "Make a new draft post with the post layout"
+desc "Make a new draft post  (layout: post)"
 task :draft, :title do |t, args|
 	new_post args.title
 end
