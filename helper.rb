@@ -1,7 +1,7 @@
 class RakeHelper
 	def initialize(publish = false)
 		@published = publish ? '---'
-							 : "published: false\n---"
+ 									: "published: false\n---"
 	end
 
 	def new_post(title)
