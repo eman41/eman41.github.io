@@ -1,4 +1,6 @@
 class RakeHelper
+	attr_accessor :published
+	
 	def initialize(publish = false)
 		@published = publish ? '---' : "published: false\n---"
 	end
