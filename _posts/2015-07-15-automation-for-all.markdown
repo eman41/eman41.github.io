@@ -6,3 +6,13 @@ tags: post
 ---
 
 Trying this thing out after a year.
+
+```csharp
+public class Test
+{
+    public static void Main(string[] args)
+    {
+        System.Console.WriteLine("Hello, World!");
+    }
+}
+```
