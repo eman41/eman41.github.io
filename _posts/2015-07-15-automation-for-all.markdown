@@ -7,7 +7,7 @@ tags: post
 
 Trying this thing out after a year.
 
-```csharp
+{% highlight csharp %}
 public class Test
 {
     public static void Main(string[] args)
@@ -15,4 +15,4 @@ public class Test
         System.Console.WriteLine("Hello, World!");
     }
 }
-```
+{% endhighlight %}
