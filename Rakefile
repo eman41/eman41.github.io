@@ -15,6 +15,7 @@ task :draft, :title do |t, args|
 end
 
 def new_post(title, publish = false)
+    puts "New post: #{title}"
 	rh = RakeHelper.new(publish)
 	rh.new_post title
 end
